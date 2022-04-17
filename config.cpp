@@ -55,4 +55,10 @@ class CfgVehicles
 		hiddenSelectionsMaterials[] = {"CarCover\data\BlueTarp.rvmat"};
 	};
 
+
+
+
+
+
+
 };
