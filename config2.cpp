@@ -36,7 +36,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "#str_cfgvehicles_camonet0";
-		model = "CarCover\data\HMVVEEErag_Cover.p3d";
+		model = "CarCover\data\Golf_Cover.p3d";
 		attachments[] =
 		{
 			"Shoulder1",
@@ -95,7 +95,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "#str_cfgvehicles_camonet0";
-		model = "CarCover\data\HMVVEEErag_Cover.p3d";
+		model = "CarCover\data\Golf_Cover.p3d";
 		attachments[] =
 		{
 			"Shoulder1",
