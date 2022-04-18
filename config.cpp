@@ -32,24 +32,42 @@ class CfgVehicles
 	class WorldContainer_Base;
 	class CarCoverBase;
 	
-	class HMVVEEErag_Cover: CarCoverBase
+	class M1114Humvee_Cover: CarCoverBase
 	{
 		scope = 2;
 		displayName = "#str_cfgvehicles_camonet0";
-		model = "CarCover\data\HMVVEEErag_Cover.p3d";
+		model = "CarCover\data\HHMVVEEErag_Cover_Cover.p3d";
 		attachments[] =
 		{
 			"CarBattery",
             "CarRadiator",
-            "SparkPlug"
+            "SparkPlug",
+            "Reflector_1_1",
+            "Reflector_2_1",
+            "55galDrum_1",
+            "55galDrum_2",
+            "CanisterGasoline",
+            "M1114Humvee_Driver",
+            "M1114Humvee_CoDriver",
+            "M1114Humvee_Cargo1",
+            "M1114Humvee_Cargo2",
+            "M1114Humvee_Hatch",
+            "M1114Humvee_Tailgate",
+            "M1114Humvee_Trunk",
+            "M1114Humvee_Hood",
+            "CanisterGasoline",
+            "M1114Humvee_Wheel",
+            "M1114Humvee_Wheel",
+            "M1114Humvee_Wheel",
+            "M1114Humvee_Wheel"
 		};
 	};
-	class HMVVEEErag_CoverWinter: HMVVEEErag_Cover
+	class M1114Humvee_CoverWinter: M1114Humvee_Cover
 	{
 		hiddenSelections[] = {"Carcover"};
 		hiddenSelectionsTextures[] = {"CarCover\data\CarCoverWinter.paa"};
 	};
-	class HMVVEEErag_CoverCivil: HMVVEEErag_Cover
+	class M1114Humvee_CoverCivil: M1114Humvee_Cover
 	{
 		hiddenSelectionsTextures[] = {"CarCover\data\BlueTarp_co.paa"};
 		hiddenSelectionsMaterials[] = {"CarCover\data\BlueTarp.rvmat"};
