@@ -43,10 +43,32 @@ class CfgVehicles
             "Shoulder2",
             "Shoulder3",
             "Shoulder4",
-			"CarBattery",
+            "CanisterGasoline",
+            "Back",
+            "SparkPlug",
+            "CarBattery",
             "CarRadiator",
             "HeadlightH7",
-            "SparkPlug"
+            "HeadlightH7",
+            "LANEvoque2016_Driver",
+            "LANEvoque2016_CoDriver",
+            "LANEvoque2016_Trunk",
+            "LANEvoque2016_Hood",
+            "CanisterGasoline",
+            "AliceBag_Green",
+            "LANEvoque2016_Wheel_1",
+            "LANEvoque2016_Wheel_1",
+            "LANEvoque2016_Wheel_1",
+            "LANEvoque2016_Wheel_1",
+            "LANEvoque2016_Wheel_2",
+            "LANEvoque2016_Wheel_2",
+            "LANEvoque2016_Wheel_2",
+            "LANEvoque2016_Wheel_2",
+            "LANEvoque2016_Wheel_3",
+            "LANEvoque2016_Wheel_3",
+            "LANEvoque2016_Wheel_3",
+            "LANEvoque2016_Wheel_3"
+
 		};
 	};
 	class LANEvoque_CoverWinter: LANEvoque_Cover
